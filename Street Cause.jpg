@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href='https://www.streetcause.org/'>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="author" content="Street Cause" />
+        <meta name="keywords" content="Street Cause, Hyderabad Youth Assembly, HYA, Run 4 Cause, Run for a Cause, Run for a cause Reloaded" />
+        <meta name="description" content=""Street Cause is an NGO comprising of students intent on doing their bit for the betterment of society. Within a year from its inception in 2009, it has radically grown from being a local guild of adherents, with the objective of helping the underprivileged and the destitute in any and every way possible, to being an internationally renowned organization." />
+        <title>Street Cause</title> 
+        <link rel="shortcut icon" href="public/images/admin/20220412201504283_sc_logo.png" type="image/x-icon">
+
+        <link href="public/css/bootstrap.css" rel="stylesheet">
+        <link href="public/plugins/revolution/css/settings.css" rel="stylesheet" type="text/css">
+        <link href="public/plugins/revolution/css/layers.css" rel="stylesheet" type="text/css">
+        <link href="public/plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
+        <link href="public/css/style.css" rel="stylesheet">
+        <link href="public/css/responsive.css" rel="stylesheet">
+        <link href="public/css/simple-line-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="public/css/bootstrap-multiselect.css">
+        <link href="public/css/jquery.signaturepad.css" rel="stylesheet">
+        <link rel="stylesheet" href="public/css/jquery.datetimepicker.css" type="text/css" />
+        <link href="adminfiles/plugins/bower_components/datatables/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+        <script src="adminfiles/plugins/bower_components/jquery/dist/jquery.min.js"></script>
+        <!--<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>-->
+        <!--<script src="public/js/jquery.js"></script>--> 
+        <script type='text/javascript' src="public/js/html2canvas.js"></script>
+        <script src="public/js/jquery.watermark.js"></script>
+        <link href="adminfiles/plugins/bower_components/sweetalert/sweetalert.css" rel="stylesheet" type="text/css">
+        <script src="adminfiles/plugins/bower_components/sweetalert/sweetalert.min.js"></script>
+        <script src="adminfiles/plugins/bower_components/sweetalert/jquery.sweet-alert.custom.js"></script>
+    </head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159584796-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-159584796-1');
+</script>
+    <body>
+        <div class="page-wrapper">
+
+            <!-- Main Header-->
+            <header class="main-header header-style-three">
+                <div class="header-top-three">
+                    <div class="auto-container">
+                        <div class="clearfix">
+                            <div class="top-left">
+                                <div class="text">Have Any Question? &nbsp; <span>Call Us &nbsp; +919666683722</span></div>
+                            </div>
+                            <div class="top-right clearfix">
+                                <div class="social-icon">
+                                    <ul class="clearfix">
+                                        <li><a href="https://www.facebook.com/streetcause/" target="_blank"><span class="fa fa-facebook"></span></a></li>
+                                        <li><a href="streetcause@gmail.com" target="_blank"><span class="fa fa-google-plus"></span></a></li>
+                                        <li><a href="https://twitter.com/streetcause" target="_blank"><span class="fa fa-twitter"></span></a></li>
+                                        <li><a href="https://www.instagram.com/streetcause.india/" target="_blank"><span class="fa fa-instagram"></span></a></li>
+                                        <li><a href="https://www.youtube.com/user/streetcause" target="_blank"><span class="fa fa-youtube-play"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-upper">
+                    <div class="auto-container">
+                        <div class="clearfix">
+                            <div class="pull-left logo-outer">
+                                <div class="logo"><a href="index"><img src="public/images/admin/20220808092457587_sc_app_logo_home_page.jpg" alt="" title="" width="340"></a></div>
+                            </div>
+                            <div class="pull-right upper-right clearfix">
+                                <div class="upper-column info-box">
+                                    <ul>
+                                        <li><span class="icon flaticon-symbol"></span><strong>Email</strong></li>
+                                        <li>streetcause@gmail.com</li>
+                                    </ul>
+                                </div>
+                                <div class="upper-column info-box">
+                                    <ul>
+                                        <li><span class="icon flaticon-location-pin"></span><strong>Location</strong></li>
+                                        <li>Ft.No.205(Moghal Emami-<br>
+Complex),St.No.7, Veer Nagar,<br> 
+Chintal basthi road,khairtabad, Hyderabad, TS.<br></li>
+                                    </ul>
+                                </div>
+                                <div class="upper-column info-box">
+                                                                            <a href="login" class="theme-btn btn-style-seven red-btn">LOGIN</a>
+                                        <a href="register" class="theme-btn btn-style-seven green-btn">REGISTER</a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-lower">
+                    <div class="auto-container">
+                        <div class="nav-outer clearfix">
+                            <nav class="main-menu">
+                                <div class="navbar-header">  
+                                    <button type="button" class="navbar-toggle mobile-menu-btn" data-toggle="collapse" onclick="openNav()">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                        <li class="current"><a href="index"><i class="icon-home"></i> Home</a></li>
+                                        <li><a href="aboutus"><i class="icon-briefcase"></i> About Us</a></li>
+                                        <!-- <li><a href="sc_updates"><i class="icon-doc"></i> SC Updates</a></li> -->
+                                        <li class="dropdown"><a href="#"><i class="icon-wallet"></i> SC Updates</a>
+                                            <ul>
+                                                <li><a href="https://www.streetcause.org/sc_updates">Blog</a></li>
+                                                <li><a href="https://www.streetcause.org/important_docs">Important docs</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="donate"><i class="icon-wallet"></i> Donate</a></li>
+                                        <li><a href="members_data"><i class="icon-people"></i> Members</a></li>
+                                          <!--<li><a href="annual_reports"><i class="icon-doc"></i> Annual Report</a></li>-->
+                                        <li class="dropdown"><a href="#"><i class="icon-wallet"></i> Media</a>
+                                            <ul>
+                                                <li><a href="photos">Photos</a></li>
+                                                <li><a href="videos">Videos</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contactus"><i class="icon-location-pin"></i> Contact Us</a></li>
+                                        <li><a href="complaints"><i class="icon-location-pin"></i> Complaints</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="sticky-header">
+                    <div class="auto-container clearfix">
+                        <div class="logo pull-left">
+                            <a href="index" class="img-responsive"><img src="public/images/admin/20220808092457587_sc_app_logo_home_page.jpg" alt="" width="200"></a>
+                        </div>
+                        <div class="right-col pull-right">
+                            <nav class="main-menu">
+                                <div class="navbar-header">    
+                                    <button type="button" class="navbar-toggle mobile-menu-btn" data-toggle="collapse" onclick="openNav()">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div> 
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                        <li class="current"><a href="index"><i class="icon-home"></i> Home</a></li>
+                                        <li><a href="aboutus"><i class="icon-briefcase"></i> About Us</a></li>
+                                        <li><a href="sc_updates"><i class="icon-doc"></i> SC Updates</a></li>
+                                        <li><a href="donate"><i class="icon-wallet"></i> Donate</a></li>
+                                        <li><a href="members_data"><i class="icon-people"></i> Members</a></li>
+                                          <!--<li><a href="annual_reports"><i class="icon-doc"></i> Annual Report</a></li>-->
+                                        <li class="dropdown"><a href="#"><i class="icon-wallet"></i> Media</a>
+                                            <ul>
+                                                <li><a href="photos">Photos</a></li>
+                                                <li><a href="videos">Videos</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contactus"><i class="icon-location-pin"></i> Contact Us</a></li>
+                                        <li><a href="complaints"><i class="icon-location-pin"></i> Complaints</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mobile-menu-area">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <li><a href="index"><i class="icon-home"></i> Home</a></li>
+                        <li><a href="aboutus"><i class="icon-briefcase"></i> About Us</a></li>
+                        <li><a href="sc_updates"><i class="icon-doc"></i> SC Updates</a></li>
+                        <li><a href="donate"><i class="icon-wallet"></i> Donate</a></li>
+                        <li><a href="members_data"><i class="icon-people"></i> Members</a></li>
+                        <li><a href="annual_reports"><i class="icon-doc"></i> Annual Report</a></li>
+                        <li><a href="photos"><i class="icon-wallet"></i> Photos</a></li>
+                        <li><a href="videos"><i class="icon-wallet"></i> Videos</a></li>
+
+                        <li><a href="contactus"><i class="icon-location-pin"></i> Contact Us</a></li>
+                    </div>
+                </div>
+            </header>
+            <style>
+
+    label1 {
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 400;
+        color: #e42929;
+    }</style>
+<style>
+.preloader2 {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color: #ffffff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(public/images/blog/favicon.png);
+</style>
+<div id="myModal" class="modal">
+    Modal content 
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="public/images/blog/favicon.png" alt="" class="img-responsive">
+    </div>
+</div>
+<!-- Preloader -->
+<!--<div class="preloader2"></div>-->
+
+<section class="event-section" style="background-image:url(public/images/background/pattern-3.png)">
+    <div class="auto-container">
+        <div class="row clearfix">
+            <div class="tab-column col-md-12 col-sm-12 col-xs-12">
+                <div class="events-info-tabs">
+                    <div class="event-tabs tabs-box">
+                        <ul class="tab-btns tab-buttons clearfix">
+                            <li style="background: #ffffff; color: black; font-size: 13px; text-transform: none;" data-tab="#SC_LOGO" class="tab-btn active-btn"><img src="public/images/admin/202208191135273486.png" style="width:50px;height:50px" alt="">Street Cause India</li>
+                            <li style="background: #ffffff; color: black; font-size: 13px; text-transform: none;" data-tab="#SCG_LOGO" class="tab-btn"><img src="public/images/admin/202101251432597337.PNG" style="width:50px;height:50px" alt="">SC Gold</li>
+                            <li style="background: #ffffff; color: black; font-size: 13px; text-transform: none;" data-tab="#HYA_LOGO" class="tab-btn"><img src="public/images/admin/201911121822455752.png" style="width:50px;height:50px" alt="">HYA</li> 
+                            <li style="background: #ffffff; color: black; font-size: 13px; text-transform: none;" data-tab="#E_force" class="tab-btn"><img src="public/images/admin/202101251432401176.PNG" style="width:50px;height:50px" alt="">SC EFORCE</li>
+                            <li style="background: #ffffff; color: black; font-size: 13px; text-transform: none;" data-tab="#SC_PAW" class="tab-btn"><img src="public/images/admin/202007300649194175.png" style="width:50px;height:50px" alt="">SC PAW</li>
+                            <li style="background: #ffffff; color: black; font-size: 13px; text-transform: none;" class="tab-btn" onclick="window.location.href = 'https://www.streetcause.org/home/ir_blogs'"><img src="public/images/admin/202110022205226172.png" style="width:50px;height:50px" alt="">SC Innovation and Research</li>
+                            <li style="background: #ffffff; color: black; font-size: 13px; text-transform: none;" data-tab="#SC_PRIDE" class="tab-btn"><img src="public/images/admin/202111161914091454.jpg" style="width:50px;height:50px" alt="">SC Pride</li>
+                            <!--<li data-tab="#Annual_Reports" class="tab-btn">Annual Reports</li>-->
+                            <!--<li onclick="window.location.href = 'annual_reports'" class="tab-btn">Annual Reports</li>-->
+                            <!--<li style="background: #ffffff;" onclick="window.location.href = 'divisions'" class="tab-btn">Divisions</li>-->
+                            
+                        </ul>
+                        <div class="tabs-content">
+
+                            <div class="tab active-tab" id="SC_LOGO">
+                                <div class="content">
+                                    <div class="row clearfix">
+                                        <div class="col-md-4 col-sm-6 col-xs-12">
+                                            <img src="public/images/admin/202208191135273486.png" style="width:100%;height:270px" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="content-column col-md-8 col-sm-6 col-xs-12">
+                                            <div class="inner-column">
+                                                <h3>Street Cause India</h3>
+                                                <div class="text">
+                                                    <p style="text-align: justify;"><b id="docs-internal-guid-5d37fbe2-7fff-27d1-c958-c8b87f660b51">Street Cause is the living embodiment of the quote, &quot;A life without a Cause is a life without an Effect.&quot; The slogan had been bringing in students of different ambitions and aspirations together and driving them to be more than passive spectators to the inequities in our society.</b></p>
+
+<p style="text-align: justify;"><meta charset="utf-8" /></p>
+
+<p style="text-align: justify;"><b id="docs-internal-guid-5d37fbe2-7fff-27d1-c958-c8b87f660b51">Akhilesh Jukareddy established Street Cause in 2009 at the Sreenidhi Institute of Science and Technology, Hyderabad, with a vision of serving humankind with a group of like-minded individuals who are passionately driven by one cause: &quot;A life without a cause is a life without an effect&quot;.&nbsp;</b></p>
+
+<p style="text-align: justify;"><b id="docs-internal-guid-5d37fbe2-7fff-27d1-c958-c8b87f660b51">Street Cause today stands proud and tall, having come a long way since its inception. It has built for itself a desirable reputation few can match. All this could be achieved through vision, sheer dint of effort and ground-level execution of all our volunteers.</b></p>
+
+<p style="text-align: justify;"><b id="docs-internal-guid-5d37fbe2-7fff-27d1-c958-c8b87f660b51">Street Cause has not only contributed to societal welfare but has had a significant impact on our volunteers in building character and shaping their personalities to grow up as valuable citizens. Street Cause has prepared the students to be lifelong achievers, keen collaborative learners, progressive thinkers, good communicators and responsible citizens.</b></p>
+
+<p style="text-align: justify;"><b id="docs-internal-guid-5d37fbe2-7fff-27d1-c958-c8b87f660b51">Having been present in six cities and envisioning growing in many more, Street Cause is going through a remarkable transformation as a National Organization in every way. It is slowly taking one step at-a-time in making Vision 2030 possible.</b></p>
+    
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab" id="SCG_LOGO">
+                                <div class="content">
+                                    <div class="row clearfix">
+                                        <div class="col-md-4 col-sm-6 col-xs-12">
+                                            <img src="public/images/admin/202101251432597337.PNG" style="width:100%;height:270px" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="content-column col-md-8 col-sm-6 col-xs-12">
+                                            <div class="inner-column">
+                                                <h3>SC Gold</h3>
+                                                <div class="text">
+                                                    <p><meta charset="utf-8" /></p>
+
+<p dir="ltr"><b id="docs-internal-guid-4d6c7642-7fff-0a59-30a1-b0c51cc249a5">Street Cause GOLD, the&nbsp;unit&nbsp;of Street Cause, which is a place for all, with inherent spirit and zeal to participate in our ventures of social development. Street Cause GOLD was started with the intention to provide a platform to the working class people who wish to give their two cents to the society, Street Cause GOLD was lead by our noble leader Mr Alok Jaiswal for six years. Street Cause GOLD adopted orphanages and conducted free education sessions, conducted blood donation camps, plantation drives, medical camps to name a few of the numerous events.</b></p>
+
+<p dir="ltr"><b id="docs-internal-guid-4d6c7642-7fff-0a59-30a1-b0c51cc249a5">Street Cause GOLD has had members from deloitte, amazon, Wipro, Mahindra, TFI working for it.</b></p>
+
+<p dir="ltr"><b id="docs-internal-guid-4d6c7642-7fff-0a59-30a1-b0c51cc249a5">Graduates, post graduates or the fraternity of working class, divisional alumni or students from the colleges that don&#39;t have a Street Cause division are eligible to be a part of Street Cause GOLD.&nbsp;</b></p>
+      
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab" id="HYA_LOGO">
+                                <div class="content">
+                                    <div class="row clearfix">
+                                        <div class="col-md-4 col-sm-6 col-xs-12">
+                                            <img src="public/images/admin/201911121822455752.png" style="width:100%;height:270px" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="content-column col-md-8 col-sm-6 col-xs-12">
+                                            <div class="inner-column">
+                                                <h3>HYA</h3>
+                                                <div class="text">
+                                                    <p><b id="docs-internal-guid-2c80dd07-7fff-1cb1-0b0d-ae90eb2168db">Hyderabad Youth Assembly is the epitome of &quot;Unity in Diversity.&quot;</b></p>
+
+<p><strong>A premier Permanent project of Street Cause that recruits students from colleges of varied academic disciplines after a rigorous scrutiny of group discussions and personal interviews. Members of HYA work for a period of 8 months to play their role in realizing sustainable development.</strong></p>
+
+<p><meta charset="utf-8" /></p>
+
+<p dir="ltr"><b id="docs-internal-guid-2c80dd07-7fff-1cb1-0b0d-ae90eb2168db">Each member is required to express their novel ideas in achieving the chosen sustainable development goals (SDGs) in the assembly conducted at Dr. Marri Channa Reddy Human Resource Development Centre. The motions put forward are discussed, deliberated and voted upon during their designated time slots, following the rules of procedure set by the UN assembly.</b></p>
+
+<p dir="ltr"><b id="docs-internal-guid-2c80dd07-7fff-1cb1-0b0d-ae90eb2168db">The motions passed are there on implemented by the members after a series of surveys in villages destitute of the very basic amenities.&nbsp;</b></p>
+
+<p dir="ltr"><b id="docs-internal-guid-2c80dd07-7fff-1cb1-0b0d-ae90eb2168db">Hyderabad Youth Assembly is conducted in two phases, each phase having four goals. It has a chairperson projects, four Vice chairs and eight directors who are elected by the members. The members are divided into groups according to the goals. Each group will be led by a vice chair and will be doing projects after getting the survey reports, to attain their goal.</b></p>
+    
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab" id="E_force">
+                                <div class="content">
+                                    <div class="row clearfix">
+                                        <div class="col-md-4 col-sm-6 col-xs-12">
+                                            <img src="public/images/admin/202101251432401176.PNG" style="width:100%;height:270px" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="content-column col-md-8 col-sm-6 col-xs-12">
+                                            <div class="inner-column">
+                                                <h3>SC EFORCE</h3>
+                                                <div class="text">
+                                                    <p><b id="docs-internal-guid-0c583f82-7fff-d810-191c-c10430ec7dec">Eforce is the fastest growing unit of Street Cause, which has been establishing eco clubs in urban and rural schools to instil a &#39;green sense&#39; of responsibility and accountability, in the young minds, for our indiscretions towards the nature. Thus, empowering and enabling them to make greener choices for the recovery of damaged ecosystems. Street Cause Eforce Conducts events like mass plantation drive, awareness programs and conduction of Science fairs in schools to spread the knowledge about environmental safety.</b></p>
+    
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab" id="SC_PAW">
+                                <div class="content">
+                                    <div class="row clearfix">
+                                        <div class="col-md-4 col-sm-6 col-xs-12">
+                                            <img src="public/images/admin/202007300649194175.png" style="width:100%;height:270px" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="content-column col-md-8 col-sm-6 col-xs-12">
+                                            <div class="inner-column">
+                                                <h3>SC PAW</h3>
+                                                <div class="text">
+                                                    <p><b id="docs-internal-guid-27cb73bd-7fff-831d-b87b-b38e1453a505">Street Cause PAW is started with a scope to make this world a better place for animals. PAW which is the comprehension to People for Animal Welfare works so as to bring awareness amongst the people about Animal welfare, conducts adoption camps, supports Animal Sanctuaries by adopting animals, creating a shelter for street animals. Street Cause PAW is an open platform for all, any animal lover who wishes to be a part of Animal Welfare can be a part of Street Cause PAW.</b></p>
+    
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab" id="SC_PRIDE">
+                                <div class="content">
+                                    <div class="row clearfix">
+                                        <div class="col-md-4 col-sm-6 col-xs-12">
+                                            <img src="public/images/admin/202111161914091454.jpg" style="width:100%;height:270px" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="content-column col-md-8 col-sm-6 col-xs-12">
+                                            <div class="inner-column">
+                                                <h3>SC Pride</h3>
+                                                <div class="text">
+                                                    <p>Street Cause Pride was started during the Pride month (June) of 2020 to spread awareness about the LBGTQ+ community among the public, mainly among the student community! Through the interaction with the student community at Street Cause for more than 12 years (and counting) we&#39;ve observed that there&#39;s still countless, otherwise rational and aware people who have extreme misconceptions about the community, originating from lack of information or pre-conceived notions. Street Cause Pride endeavours to change this by engaging in conversations about the community and battling stereotypes and notions to help people to be more inclusive and in making spaces safe for &nbsp;LGBTQ+ folks. It makes one recognise their privilege and how to use it to be a good ally. It brings us immense joy to say that we have conducted The First Street Cause Virtual Pride Parade in the Pride Month of 2021, bringing together allies and folks from the community from across cities to one safe, happy event! The Pride team looks forward to brining about more conversations and clearing misconceptions, and to do our bit for the LGBTQ+ community.</p>
+    
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab" id="Media">
+                                <div class="content">
+                                    <div class="row clearfix">
+                                        <div class="col-md-4 col-sm-6 col-xs-12">
+                                            <img src="public/images/admin/202007300649194175.png" style="width:100%;height:270px" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="content-column col-md-8 col-sm-6 col-xs-12">
+                                            <div class="inner-column">
+                                                <div class="text">
+                                                    <p><b id="docs-internal-guid-27cb73bd-7fff-831d-b87b-b38e1453a505">Street Cause PAW is started with a scope to make this world a better place for animals. PAW which is the comprehension to People for Animal Welfare works so as to bring awareness amongst the people about Animal welfare, conducts adoption camps, supports Animal Sanctuaries by adopting animals, creating a shelter for street animals. Street Cause PAW is an open platform for all, any animal lover who wishes to be a part of Animal Welfare can be a part of Street Cause PAW.</b></p>
+    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+<!--                            <div class="tab" id="Annual_Reports">
+                                <div class="content">
+                                    <div class="row clearfix">
+                                        <div class="col-md-5 col-sm-6 col-xs-12">
+                                            <img src="public/images/sclogo.jpg" alt="" class="img-responsive">
+                                        </div>
+                                        <div class="content-column col-md-7 col-sm-6 col-xs-12">
+                                            <div class="inner-column">
+                                                <div class="text">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>-->
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="main-slider">
+    <div class="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery">
+        <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
+            <ul>
+                                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default"
+                        data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="public/images/admin/26391.jpeg"
+                        data-title="Slide Title" data-transition="parallaxvertical">
+                        <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="public/images/admin/26391.jpeg">
+                        <!--<div class="tp-caption tp-resizeme" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['570','570','570','450']"-->
+                        <!--     data-whitespace="normal" data-hoffset="['15','15','15','15']" data-voffset="['20','30','20','0']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']"-->
+                        <!--     data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'-->
+                        <!--     style="z-index: 7; white-space: nowrap;text-transform:left;">-->
+                        <!--    <div class="slider-content">-->
+                        <!--        # <h2></h2>-->
+                        <!--        # <div class="text"></div>-->
+                        <!--    </div>-->
+                        <!--</div>-->
+                    </li>
+                            </ul>
+        </div>
+    </div>
+</section>
+<section class="welcome-section no-padd-top">
+    <div class="auto-container">
+        <div class="sec-title">
+            <h2>Welcome to <span>Street Cause</span></h2>
+        </div>
+        <div class="row clearfix">
+            <div class="video-column col-md-6 col-sm-12 col-xs-12">
+                <div class="video-box">
+                    <figure class="image">
+                        <img src="public/images/admin/202308161122549288.jpeg" alt="">
+                    </figure>
+                    <a href="https://www.youtube.com/watch?v=azbgBRXJSDY" class="lightbox-image overlay-box"><span class="flaticon-right-arrow-2"></span></a>
+                </div>
+            </div>
+            <div class="content-column col-md-6 col-sm-12 col-xs-12">
+                <div class="inner-column">
+                    <div class="text">
+                        Succesfully completed 14 years of service, Street Cause, a national registered student-run NGO was started by seven young students in Hyderabad (2009) from different education institutions trying their bit to make the world around them a better place. The idea was to build a place where students turn into socially conscious leaders and uplift the living conditions of the needy people regardless of any bias or racism.
+
+
+Today, Street Cause has grown upto have 4000+ student volunteers, 10,000+ alumni network, completed 15,000+ projects worth INR 4.5 Cr+ impacting over 3L+ people and present over 50+ educational divisions.&nbsp;
+
+We have recently expanded to 5 other cities (Bangalore, Chennai, Kochi, Pune, Vishakapatnam) with our Vision 2030; a journey from Street Cause Hyderabad to Street Cause India.&nbsp;
+We primarily focus on delivering high-quality permanent projects and scaling the impact across the country and towards empowering the upcoming students to grow and work with the                    </div>
+                    <a href="aboutus" class="theme-btn btn-style-three">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="map-info-section">
+    <div class="auto-container">
+        <div class="row clearfix">
+
+            <!--Map Column-->
+            <div class="map-column col-md-6 col-sm-12 col-xs-12">
+                <div class="sec-title" style="margin-bottom:0px">
+                    <h2 class="mb-0">Follow Us</h2>
+                </div>
+                <iframe src="https://www.instagram.com/streetcause.india/embed" width="100%" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                <!--<iframe width="320" height="460" src="https://www.instagram.com/p/streetcause.india/embed" frameborder="0"></iframe>-->
+                <!--<iframe src="https://www.facebook.com/plugins/page?href=https%3A%2F%2Fwww.facebook.com%2Fstreetcause%2F&tabs=timeline&width=10025&height=350&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>-->
+            </div>
+            <!--Accordian Column-->
+            <div class="accordian-column col-md-6 col-sm-12 col-xs-12">
+                <!--Accordion Box-->
+                <ul class="accordion-box">
+                    <!--Block-->
+                                        <li class="accordion block ">
+                        <div class="acc-btn "><div class="icon-outer"><span class="icon fa fa-caret-right"></span> </div>How can I make a donation?</div>
+                        <div class="acc-content ">
+                            <div class="content"><p>You can deposit funds to:
+Account Holder Name: Street Cause
+Account Number: 5666201000047
+IFSC Code: CNRB0005666
+Bank: Canara Bank
+Branch: Canara ECIL
+</p></div>
+                        </div>
+                    </li> 
+                                        <li class="accordion block  active-block ">
+                        <div class="acc-btn  active "><div class="icon-outer"><span class="icon fa fa-caret-right"></span> </div>How can I volunteer?</div>
+                        <div class="acc-content  current ">
+                            <div class="content"><p>If you are a student, you could volunteer in your college's Street Cause division/City or join our units. For details, you can reach out to one of us at,
+Email: streetcause@gmail.com
+Instagram: streetcause.india
+</p></div>
+                        </div>
+                    </li> 
+                                        <li class="accordion block ">
+                        <div class="acc-btn "><div class="icon-outer"><span class="icon fa fa-caret-right"></span> </div>The Goal of the Organization:</div>
+                        <div class="acc-content ">
+                            <div class="content"><p>The NGO was established to create a platform for the students who intend to do their bit towards the betterment of society to help the underprivileged and the destitute in any and every way possible.
+</p></div>
+                        </div>
+                    </li> 
+                                    </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="call-to-action" style="background-image:url(public/images/background/2.jpg)">
+    <div class="auto-container text-center">
+        <h2>"A Life without a Cause, is a Life without an Effect"</h2>
+        <div class="text">This is perhaps the most inspiring thought that aptly defines the motive of Street Cause which strives to bring consistent changes in the lives of the people. </div>
+        <a href="donate" class="theme-btn btn-style-two"> DONATE</a>
+    </div>
+</section>
+<section class="causes-section">
+    <div class="auto-container">
+        <div class="sec-title">
+            <h2>Our Projects</h2>
+        </div>
+        <div class="four-item-carousel owl-carousel owl-theme">
+                        <div class="causes-block">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="project_view/distribution-of-stationary-items-to-govt-school-childrens_zsGF"><img src="public/images/admin/20220424234239180.jpeg" style="width:100% ;height:230px;" alt="" /></a>
+                    </div>
+                    <div class="lower-content">
+                        <h3><a href="project_view/distribution-of-stationary-items-to-govt-school-childrens_zsGF">distribution of stationary items to govt school childrens</a></h3>
+                        <div class="content">
+                            <div class="text">Task number : 13
+
+&nbsp;Division: Street Cause MVSR
+
+&nbsp;Date on which survey</div>
+                        </div>
+                        <div class="btns-box">
+                            <a href="donate" class="theme-btn btn-style-two">Donate</a>
+                            <a href="project_view/distribution-of-stationary-items-to-govt-school-childrens_zsGF" class="theme-btn btn-style-four">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="causes-block">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="project_view/Project-Vidya-_CbeH"><img src="public/images/admin/202308141758366584.png" style="width:100% ;height:230px;" alt="" /></a>
+                    </div>
+                    <div class="lower-content">
+                        <h3><a href="project_view/Project-Vidya-_CbeH">Project Vidya </a></h3>
+                        <div class="content">
+                            <div class="text">Distribution of 700+ text boooks, note books and setting up a library for primary school students</div>
+                        </div>
+                        <div class="btns-box">
+                            <a href="donate" class="theme-btn btn-style-two">Donate</a>
+                            <a href="project_view/Project-Vidya-_CbeH" class="theme-btn btn-style-four">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="causes-block">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="project_view/Slum-Adoption_iKqp"><img src="public/images/admin/20230816101439665.png" style="width:100% ;height:230px;" alt="" /></a>
+                    </div>
+                    <div class="lower-content">
+                        <h3><a href="project_view/Slum-Adoption_iKqp">Slum Adoption</a></h3>
+                        <div class="content">
+                            <div class="text">Providing basic amenities to 11+ slums of Hyderabad during the covid outbreak.
+
+Impact &</div>
+                        </div>
+                        <div class="btns-box">
+                            <a href="donate" class="theme-btn btn-style-two">Donate</a>
+                            <a href="project_view/Slum-Adoption_iKqp" class="theme-btn btn-style-four">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="causes-block">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="project_view/Project-sunshine-_EHwo"><img src="public/images/admin/20230816101528831.png" style="width:100% ;height:230px;" alt="" /></a>
+                    </div>
+                    <div class="lower-content">
+                        <h3><a href="project_view/Project-sunshine-_EHwo">Project sunshine </a></h3>
+                        <div class="content">
+                            <div class="text">45 solar lamp kits were set up for 45 huts in tribal hamlets near Kothagudem.
+
+Impact &n</div>
+                        </div>
+                        <div class="btns-box">
+                            <a href="donate" class="theme-btn btn-style-two">Donate</a>
+                            <a href="project_view/Project-sunshine-_EHwo" class="theme-btn btn-style-four">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="causes-block">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="project_view/Lake-adoption-drive_QPzf"><img src="public/images/admin/20230816101648357.png" style="width:100% ;height:230px;" alt="" /></a>
+                    </div>
+                    <div class="lower-content">
+                        <h3><a href="project_view/Lake-adoption-drive_QPzf">Lake adoption drive</a></h3>
+                        <div class="content">
+                            <div class="text">Cleaning and rejuvenation of Shameerpet lake.
+
+This project has avoided the spread of ma</div>
+                        </div>
+                        <div class="btns-box">
+                            <a href="donate" class="theme-btn btn-style-two">Donate</a>
+                            <a href="project_view/Lake-adoption-drive_QPzf" class="theme-btn btn-style-four">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="causes-block">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="project_view/Project-Siksha_WvMa"><img src="public/images/admin/20230816101752657.png" style="width:100% ;height:230px;" alt="" /></a>
+                    </div>
+                    <div class="lower-content">
+                        <h3><a href="project_view/Project-Siksha_WvMa">Project Siksha</a></h3>
+                        <div class="content">
+                            <div class="text">Provided with lab equipment, projector, computer and 30 benches.
+
+Impact &ndash; 600+ pe</div>
+                        </div>
+                        <div class="btns-box">
+                            <a href="donate" class="theme-btn btn-style-two">Donate</a>
+                            <a href="project_view/Project-Siksha_WvMa" class="theme-btn btn-style-four">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="causes-block">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="project_view/Silpa-Shakti-Abhiyan-_nvqC"><img src="public/images/admin/20230816101836379.png" style="width:100% ;height:230px;" alt="" /></a>
+                    </div>
+                    <div class="lower-content">
+                        <h3><a href="project_view/Silpa-Shakti-Abhiyan-_nvqC">Silpa Shakti Abhiyan </a></h3>
+                        <div class="content">
+                            <div class="text">Donated 10 stitching machines, employment generating opportunity for 40 women.
+
+Impact &</div>
+                        </div>
+                        <div class="btns-box">
+                            <a href="donate" class="theme-btn btn-style-two">Donate</a>
+                            <a href="project_view/Silpa-Shakti-Abhiyan-_nvqC" class="theme-btn btn-style-four">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="causes-block">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="project_view/Water-Wheels-Project_CDNj"><img src="public/images/admin/20230816101907495.png" style="width:100% ;height:230px;" alt="" /></a>
+                    </div>
+                    <div class="lower-content">
+                        <h3><a href="project_view/Water-Wheels-Project_CDNj">Water Wheels Project</a></h3>
+                        <div class="content">
+                            <div class="text">Donating Water Wheels
+
+to 5 tribal hamlets on the outskirts of the city
+
+Impact</div>
+                        </div>
+                        <div class="btns-box">
+                            <a href="donate" class="theme-btn btn-style-two">Donate</a>
+                            <a href="project_view/Water-Wheels-Project_CDNj" class="theme-btn btn-style-four">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="causes-block">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="project_view/Solar-Lights-Installation_IiYu"><img src="public/images/admin/20230816101945827.png" style="width:100% ;height:230px;" alt="" /></a>
+                    </div>
+                    <div class="lower-content">
+                        <h3><a href="project_view/Solar-Lights-Installation_IiYu">Solar Lights Installation</a></h3>
+                        <div class="content">
+                            <div class="text">Provided solar lights to tribal hamlets which were facing endangered situations.
+
+Impact</div>
+                        </div>
+                        <div class="btns-box">
+                            <a href="donate" class="theme-btn btn-style-two">Donate</a>
+                            <a href="project_view/Solar-Lights-Installation_IiYu" class="theme-btn btn-style-four">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="causes-block">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="project_view/ZPHS-School-Project_KxjO"><img src="public/images/admin/20230816102027506.png" style="width:100% ;height:230px;" alt="" /></a>
+                    </div>
+                    <div class="lower-content">
+                        <h3><a href="project_view/ZPHS-School-Project_KxjO">ZPHS School Project</a></h3>
+                        <div class="content">
+                            <div class="text">Renovation of washrooms, tables and infrastructure of ZPHS govt. school.
+
+Impact &ndash;</div>
+                        </div>
+                        <div class="btns-box">
+                            <a href="donate" class="theme-btn btn-style-two">Donate</a>
+                            <a href="project_view/ZPHS-School-Project_KxjO" class="theme-btn btn-style-four">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="causes-block">
+                <div class="inner-box">
+                    <div class="image">
+                        <a href="project_view/Water-Project_rAuG"><img src="public/images/admin/20230821180821920.jpg" style="width:100% ;height:230px;" alt="" /></a>
+                    </div>
+                    <div class="lower-content">
+                        <h3><a href="project_view/Water-Project_rAuG">Water Project</a></h3>
+                        <div class="content">
+                            <div class="text">Test project
+</div>
+                        </div>
+                        <div class="btns-box">
+                            <a href="donate" class="theme-btn btn-style-two">Donate</a>
+                            <a href="project_view/Water-Project_rAuG" class="theme-btn btn-style-four">More Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+</section>
+
+<section class="testimonial-section" style="background-image:url(public/images/background/4.jpg)">
+    <div class="auto-container">
+        <div class="carousel-outer">
+            <div class="sec-title">
+                <h2>VIP Testimonials</h2>
+            </div>
+            <div class="single-item-carousel owl-carousel owl-theme video-column">
+                            <div class="testimonial-block video-box">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text"><span class="left-icon la la-quote-left"></span> Very Good initiative by Street Cause. It's the Finest inclusion of the young generation for the social cause. Wish you all the best!
+. <span class="right-icon la la-quote-right"></span></div>
+                            <h3>Sri.M. Bala latha</h3>
+                            <div class="designation">IAS Officer</div>
+                        </div>
+                        <div class="image">
+                            <img src="public/images/admin/201909121617243361.jpg" style="width:270px ;height:350px;" alt="" />
+                            <a href="https://www.youtube.com/watch?v=" class="lightbox-image overlay-box"><span class="flaticon-right-arrow-2"></span></a>
+                        </div>
+
+                    </div>
+                </div>
+                            <div class="testimonial-block video-box">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text"><span class="left-icon la la-quote-left"></span> Kudos to Hyderabad Youth Assembly. The Hyderabad Youth Assembly is a significant socio-economic initiative, striving to contain many endemic materials affecting society. The participants were highly involved in serving the people. I wish you success in the task. . <span class="right-icon la la-quote-right"></span></div>
+                            <h3>Sunkara Sathyanarayana</h3>
+                            <div class="designation">DCP (Retd)</div>
+                        </div>
+                        <div class="image">
+                            <img src="public/images/admin/201909121627114700.jpg" style="width:270px ;height:350px;" alt="" />
+                            <a href="https://www.youtube.com/watch?v=" class="lightbox-image overlay-box"><span class="flaticon-right-arrow-2"></span></a>
+                        </div>
+
+                    </div>
+                </div>
+                            <div class="testimonial-block video-box">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text"><span class="left-icon la la-quote-left"></span> Dear Hyderabad Youth Assembly, at the outset, let me congratulate you on the present endeavor. Your social consciousness will take the state ahead. All the Best! 
+. <span class="right-icon la la-quote-right"></span></div>
+                            <h3>T.K. Sreedevi</h3>
+                            <div class="designation">IAS Officer</div>
+                        </div>
+                        <div class="image">
+                            <img src="public/images/admin/201909121635042401.jpg" style="width:270px ;height:350px;" alt="" />
+                            <a href="https://www.youtube.com/watch?v=" class="lightbox-image overlay-box"><span class="flaticon-right-arrow-2"></span></a>
+                        </div>
+
+                    </div>
+                </div>
+                            <div class="testimonial-block video-box">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text"><span class="left-icon la la-quote-left"></span> I am grateful for inviting me to Street Cause's Hyderabad Youth Assembly. I congratulate and admire your commitment and hard work towards doing good for society.
+. <span class="right-icon la la-quote-right"></span></div>
+                            <h3>Narmada</h3>
+                            <div class="designation">She Team - ACP</div>
+                        </div>
+                        <div class="image">
+                            <img src="public/images/admin/201909121701592012.jpg" style="width:270px ;height:350px;" alt="" />
+                            <a href="https://www.youtube.com/watch?v=" class="lightbox-image overlay-box"><span class="flaticon-right-arrow-2"></span></a>
+                        </div>
+
+                    </div>
+                </div>
+                            <div class="testimonial-block video-box">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text"><span class="left-icon la la-quote-left"></span> After coming to the Hyderabad Youth Assembly and listening to the motions and views of the youth, I am truly inspired. I wish you all the very Best!
+. <span class="right-icon la la-quote-right"></span></div>
+                            <h3>Etela Rajendar</h3>
+                            <div class="designation">Finance Minister of Telangana state from 2014 to 2018 and the Health Minister of Telangana from 2019 to 2021 of Telangana State.</div>
+                        </div>
+                        <div class="image">
+                            <img src="public/images/admin/201909121708076758.jpg" style="width:270px ;height:350px;" alt="" />
+                            <a href="https://www.youtube.com/watch?v=" class="lightbox-image overlay-box"><span class="flaticon-right-arrow-2"></span></a>
+                        </div>
+
+                    </div>
+                </div>
+                            <div class="testimonial-block video-box">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text"><span class="left-icon la la-quote-left"></span> I'm very grateful to be a part of HYA Season-V. Thanks for inviting me.
+. <span class="right-icon la la-quote-right"></span></div>
+                            <h3>Bandaru Dattatreya</h3>
+                            <div class="designation">Governor of the State of Haryana since 2021</div>
+                        </div>
+                        <div class="image">
+                            <img src="public/images/admin/202007300708371533.jpg" style="width:270px ;height:350px;" alt="" />
+                            <a href="https://www.youtube.com/watch?v=" class="lightbox-image overlay-box"><span class="flaticon-right-arrow-2"></span></a>
+                        </div>
+
+                    </div>
+                </div>
+                            
+<!--                <div class="testimonial-block video-box">
+                    <div class="inner-box">
+                        <div class="content">
+                            <div class="text"><span class="left-icon la la-quote-left"></span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <span class="right-icon la la-quote-right"></span></div>
+                            <h3>Lavanya</h3>
+                            <div class="designation">Designation Comes Here</div>
+                        </div>
+                        <div class="image">
+                            <img src="public/images/resource/author.jpg" alt="" />
+                            <a href="https://www.youtube.com/watch?v=azbgBRXJSDY" class="lightbox-image overlay-box"><span class="flaticon-right-arrow-2"></span></a>
+                        </div>
+
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</section>
+<section class="news-section">
+    <div class="auto-container">
+        <div class="sec-title">
+            <h2>Latest News & Updates</h2>
+        </div>
+        <div class="row clearfix">
+                        <div class="news-block col-md-4 col-sm-6 col-xs-12">
+                <div class="inner-box">
+                    <div class="image">
+                        <img src="public/images/admin/202308171221461897.jpg" style="width:100% ;height:230px;" alt="" />
+                        <a href="news_view/Street-Cause-ICFAI_vFwp" class="overlay-box"><span class="icon flaticon-unlink"></span></a>
+                    </div>
+                    <div class="lower-content">
+                        <div class="post-date">01<span>June</span></div>
+                        <h3><a href="news_view/Street-Cause-ICFAI_vFwp">Street Cause ICFAI</a></h3>
+                        <div class="text"></div>
+                    </div>
+                </div>
+            </div>
+                        <div class="news-block col-md-4 col-sm-6 col-xs-12">
+                <div class="inner-box">
+                    <div class="image">
+                        <img src="public/images/admin/202308161552225832.png" style="width:100% ;height:230px;" alt="" />
+                        <a href="news_view/Our-Mega-Projects_kFAc" class="overlay-box"><span class="icon flaticon-unlink"></span></a>
+                    </div>
+                    <div class="lower-content">
+                        <div class="post-date">31<span>May</span></div>
+                        <h3><a href="news_view/Our-Mega-Projects_kFAc">Our Mega Projects</a></h3>
+                        <div class="text"><p>Our Mega Projects</p>
+
+<p>Project Vidya</p>
+
+<p>Distribution of 700+ text boooks, note books </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="news-block col-md-4 col-sm-6 col-xs-12">
+                <div class="inner-box">
+                    <div class="image">
+                        <img src="public/images/admin/202308171223186296.jpg" style="width:100% ;height:230px;" alt="" />
+                        <a href="news_view/Street-Cause-MCET-and-MVSR-_Irgw" class="overlay-box"><span class="icon flaticon-unlink"></span></a>
+                    </div>
+                    <div class="lower-content">
+                        <div class="post-date">03<span>May</span></div>
+                        <h3><a href="news_view/Street-Cause-MCET-and-MVSR-_Irgw">Street Cause MCET and MVSR </a></h3>
+                        <div class="text"></div>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+</section>
+<footer class="footer-style-two">
+            <div class="auto-container">
+                <div class="widgets-section">
+                    <div class="row clearfix">
+                        <div class="big-column col-md-8 col-sm-12 col-xs-12">
+                            <div class="row clearfix">
+                                <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                    <div class="footer-widget logo-widget">
+                                        <h2>Get in Touch</h2>
+                                        <ul class="list-style-two">
+                                            <li><span class="icon flaticon-location-pin"></span>Ft.No.205(Moghal Emami-<br>
+Complex),St.No.7, Veer Nagar,<br> 
+Chintal basthi road,khairtabad, Hyderabad, TS.<br></li>
+                                            <li><span class="icon flaticon-technology-1"></span>+919666683722</li>
+                                            <li><span class="icon flaticon-symbol"></span>streetcause@gmail.com</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                                    <div class="footer-widget links-widget">
+                                        <h2>Quick Link</h2>
+                                        <div class="row clearfix">
+                                <div class="column col-md-6 col-sm-6 col-xs-12">
+                                    <ul class="footer-list">
+                                        <li><a href="aboutus">About Us</a></li>
+                                        <li><a href="sc_updates">SC Updates</a></li>
+                                        <li><a href="#">Members</a></li>
+                                        <li><a href="contactus">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="column col-md-6 col-sm-6 col-xs-12">
+                                    <ul class="footer-list">
+                                        <li><a href="donate">Donate</a></li>
+                                        <li><a href="login">Login</a></li>
+                                        <li><a href="register">Register</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="big-column col-md-4 col-sm-12 col-xs-12">
+                            <div class="row clearfix">
+                                <div class="footer-column col-md-12 col-sm-12 col-xs-12">
+                                    <div class="footer-widget links-widget">
+                                        <h2>Location</h2>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487295.02532044525!2d78.12785129924684!3d17.41215307568293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C+Telangana!5e0!3m2!1sen!2sin!4v1558532454541!5m2!1sen!2sin" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="auto-container">
+                    <div class="row clearfix">
+                        <div class="column col-md-6 col-sm-8 col-xs-12">
+                            <div class="copyright">Copyright &copy; 2019 Street Cause. All rights reserved</div>
+                        </div>
+                        <div class="social-column col-md-6 col-sm-4 col-xs-12">
+                              <div class="copyright">Made with <i class="fa fa-heart-o"></i> By <a href="https://mauvetix.com/" target="_blank">Mauvetix</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <div class="mobile-btn visible-xs">
+            <div class="container">
+                                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="login"  class="ph-btn bdr-1">LOGIN</a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="register" class="ph-btn ph-btn2">REGISTER</a>
+                    </div>
+                </div>
+                            </div>
+        </div>
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+
+    <script src="public/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="public/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="public/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="public/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="public/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="public/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="public/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="public/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="public/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="public/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="public/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="public/js/main-slider-script.js"></script>
+    <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/jquery.fancybox.pack.js"></script>
+    <script src="public/js/jquery.fancybox-media.js"></script>
+    <script src="public/js/owl.js"></script>
+    <script src="public/js/wow.js"></script>
+    <script src="public/js/mixitup.js"></script>
+    <script src="public/js/appear.js"></script>
+    <script src="public/js/script.js"></script>
+    <script src="public/js/jquery.signaturepad.js"></script>
+    <script type="text/javascript" src="public/js/jquery.datetimepicker.full.js"></script>
+    <script src="public/js/bootstrap-multiselect.js"></script>
+    
+    
+<script src="adminfiles/plugins/bower_components/dropify/dist/js/dropify.min.js"></script>
+<script src="adminfiles/plugins/bower_components/datatables/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+<script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+<script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
+
+<!--    <script src="http://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>-->
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+    
+    
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#multiple-checkboxes').multiselect({
+          includeSelectAllOption: true,
+          buttonWidth: '100%'
+        });
+    });
+   </script>
+   
+   <script>
+    $(document).ready(function(){
+      $('#myTable').DataTable();
+      $(document).ready(function() {
+        var table = $('#example').DataTable({
+          "columnDefs": [
+          { "visible": false, "targets": 2 }
+          ],
+          "order": [[ 2, 'asc' ]],
+          "displayLength": 25,
+          "drawCallback": function ( settings ) {
+            var api = this.api();
+            var rows = api.rows( {page:'current'} ).nodes();
+            var last=null;
+
+            api.column(2, {page:'current'} ).data().each( function ( group, i ) {
+              if ( last !== group ) {
+                $(rows).eq( i ).before(
+                  '<tr class="group"><td colspan="5">'+group+'</td></tr>'
+                  );
+
+                last = group;
+              }
+            } );
+          }
+        } );
+
+    // Order by the grouping
+    $('#example tbody').on( 'click', 'tr.group', function () {
+      var currentOrder = table.order()[0];
+      if ( currentOrder[0] === 2 && currentOrder[1] === 'asc' ) {
+        table.order( [ 2, 'desc' ] ).draw();
+      }
+      else {
+        table.order( [ 2, 'asc' ] ).draw();
+      }
+    });
+  });
+    });
+    $('#example23').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+            //'csv', 'excel', 'pdf', 'print'
+            {
+                extend: 'csvHtml5',
+                title: ''
+            },
+            {
+                extend: 'excelHtml5',
+                title: ''
+            },
+            {
+                extend: 'pdfHtml5',
+                title: ''
+            },
+            {
+                extend: 'print',
+                title: ''
+            }
+        ]
+    });
+  </script>
+<script>
+    $(document).ready(function () {
+        // Basic
+        $('.dropify').dropify();
+
+        // Translated
+        $('.dropify-fr').dropify({
+            messages: {
+                default: 'Drag and drop a file here or click',
+                replace: 'Delete-Drop-file or click to replace',
+                remove: 'Remove',
+                error: 'Sorry, the file is too large'
+            }
+        });
+
+        // Used events
+        var drEvent = $('#input-file-events').dropify();
+
+        drEvent.on('dropify.beforeClear', function (event, element) {
+            return confirm("Do you really want to delete \"" + element.file.name + "\" ?");
+        });
+
+        drEvent.on('dropify.afterClear', function (event, element) {
+            alert('File deleted');
+        });
+
+        drEvent.on('dropify.errors', function (event, element) {
+            console.log('Has Errors');
+        });
+
+        var drDestroy = $('#input-file-to-destroy').dropify();
+        drDestroy = drDestroy.data('dropify')
+        $('#toggleDropify').on('click', function (e) {
+            e.preventDefault();
+            if (drDestroy.isDropified()) {
+                drDestroy.destroy();
+            } else {
+                drDestroy.init();
+            }
+        })
+    });
+</script>
+<script>
+    function goBack() {
+    window.history.back()
+}
+  </script>
+
+
+    
+
+    <script>
+    $(document).ready(function() {
+      $('.sigPad').signaturePad({drawOnly:true});
+    });
+  </script>
+
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+<script>
+    $.datetimepicker.setLocale('en');
+
+    $('.some_class').datetimepicker({
+        timepicker:false,
+        format: 'd-m-Y',
+        scrollInput: false
+    });
+
+$('#datetimepicker_dark').datetimepicker({theme:'dark'})
+
+</script>
+
+<script type="text/javascript">
+    $(function() {
+        $('td:last-child input').change(function() {
+            $(this).closest('tr').toggleClass("highlight", this.checked);
+        });
+    });
+</script>
+
+</body>
+</html> 
